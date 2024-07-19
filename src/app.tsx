@@ -2,7 +2,7 @@ import { type FC, type ReactElement } from 'react';
 
 const App: FC = (): ReactElement => {
   return (
-    <div className="mx-auto flex w-full max-w-screen-xl flex-col gap-4 py-4">
+    <div className="mx-auto flex w-full max-w-screen-xl flex-col gap-4 px-4 py-4 xl:px-0">
       <h1>Edin Kahvedžić</h1>
       <h3>
         Hello, I'm Edin Kahvedžić, a web and mobile developer dedicated to
