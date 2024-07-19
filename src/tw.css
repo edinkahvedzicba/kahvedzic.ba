@@ -1,3 +1,30 @@
+@font-face {
+  font-family: 'DMSans';
+  src: url('/fonts/DMSans-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1 {
+  @apply text-2xl font-bold
+}
+
+h2 {
+  @apply text-xl font-bold
+}
+
+h3 {
+  @apply text-lg font-medium
+}
+
+p {
+  @apply font-medium tracking-wide
+}
+
+a {
+  @apply underline text-indigo-600
+}
